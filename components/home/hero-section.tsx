@@ -40,7 +40,7 @@ export function HeroSection() {
             Luxury Travel Design
           </p>
           <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl text-white leading-tight tracking-tight text-balance">
-            Nordic & Arctic
+            Nordic & Arctic 
             <br />
             Travel Designer
           </h1>
