@@ -109,6 +109,8 @@ const itineraryData: Record<string, {
     activities: [
       "Private Guided Walking Tour: A tailored exploration of Stockholm’s historic architecture and hidden design corners, led by a local expert.",
       "Curated Museum Visits: Priority access and guided insights at the Vasa Museum to witness the 17th-century maritime marvel, or an immersive journey through pop history at ABBA The Museum.",
+      "Snowmobile Forest Safari: An exhilarating private journey across frozen wetlands and up to panoramic viewpoints overlooking the Lule River valley.",
+      "Boreal Snowshoeing: A slow-paced, guided trek through deep snow to track local wildlife and experience the absolute silence of the Taiga forest.",
       "The Arctic Bath Wellness Ritual: A traditional hydrotherapy circuit involving a sequence of heat and cold plunges in the river’s frozen heart.",
       "Private Aurora Photography: A nocturnal expedition with a professional photographer to master the art of capturing the Northern Lights.",
       "Sámi Heritage Encounter: An intimate, meaningful afternoon with a local Sámi family to learn about reindeer husbandry and indigenous Arctic survival.",
@@ -119,9 +121,9 @@ const itineraryData: Record<string, {
     designRationale: "The luxury traveler today seeks isolation without deprivation. While the two Arctic properties are geographical neighbors in Harads, we have paired them to provide two entirely different sensory experiences: one rooted in the therapeutic stillness of the river and the other in the playful escapism of the forest. By spending time in both, the guest experiences the full spectrum of Arctic design without the fatigue of long travel days, maximizing their time in 'the great silence.'",
     gridImages: [
       { src: "/images/treehotel.jpg", alt: "Mirrored cube treehouse in Swedish Lapland forest", span: "wide" },
-      { src: "/images/dog.webp", alt: "Dog sledding through boreal forest", span: "normal" },
+      { src: "/images/dog.jpg", alt: "Dog sledding through boreal forest", span: "normal" },
       { src: "/images/ice-dining.webp", alt: "Ice Dining", span: "normal" },
-      { src: "/images/sweden-forest.jpg", alt: "Swedish Lapland autumn forest", span: "normal" },
+      { src: "/images/reindeer.jpg", alt: "Reindeer", span: "normal" },
     ]
   },
   "svalbard-polar-summer-expedition": {
