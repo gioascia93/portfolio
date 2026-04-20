@@ -131,7 +131,7 @@ export function ItineraryContent({
       </div>
 
       {/* ─── JOURNEY FLOW ─────────────────────────────────────── */}
-      <div className="mx-auto max-w-4xl px-6 lg:px-0 pt-0 pb-12 lg:pt-0 pb-20">
+      <div className="mx-auto max-w-4xl px-6 lg:px-0 pt-4 pb-12 lg:pt-8 pb-20">
         <FadeIn>
           <SectionLabel>Journey Flow</SectionLabel>
           <div className="flex flex-wrap items-center gap-x-3 gap-y-3">
