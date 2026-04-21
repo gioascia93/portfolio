@@ -209,7 +209,7 @@ const itineraryData: Record<string, {
     designRationale: "This itinerary is designed to move beyond the typical tourist experience by emphasizing the topographical and sensory shift from the city center to the deep forest. By structuring the stay to include a dedicated 4 or 5-night window in the north, I ensure a slow-paced rhythm that maximizes the potential for Aurora sightings without the fatigue of a rushed schedule. **To allow for total immersion in the cold, I provide a complete Arctic outfitting service upon arrival, ensuring you are prepared for the elements in technical comfort**. This logistical ease allows the focus to remain where it belongs: on the ethereal glow of the **Blue Hour** and the restorative silence of the **Arctic** wild.",
     gridImages: [
       { src: "/images/reindeer_finland.jpg", alt: "Reindeers", span: "wide" },
-      { src: "/images/glass-igloo-interior.jpg", alt: "Glass igloo interior with aurora overhead", span: "normal" },
+      { src: "/images/wild_blueberry_sauna.webp", alt: "Wild Blueberry Sauna", span: "normal" },
       { src: "/images/husky-sled.jpg", alt: "Husky sledding through boreal forest", span: "normal" },
       { src: "/images/finland-winter.jpg", alt: "Finnish Lapland winter forest", span: "normal" },
     ]
