@@ -24,24 +24,52 @@ const itineraryData: Record<string, {
     subtitle: "Arctic Summer Journey",
     heroImage: "/images/lofoten-rorbu.jpg",
     heroTagline: "Shaped by light, distance, and stillness.",
-    overview: "The Lofoten Islands emerge from the Arctic Sea like jagged teeth — a chain of granite peaks rising improbably from still water, connected by narrow straits and separated from mainland Norway by a deep channel. This is where midnight sun bathes dramatic landscapes in perpetual golden light, fishing villages perch impossibly on stilts above glassy fjords, and the connection between sea, mountain, and human craft feels immediate and profound. There is nothing else like it on earth.",
-    guestProfile: "Well-travelled couples and small groups of 2–6 seeking remote landscapes, genuine privacy, and experiences that resist easy comparison. Drawn to nature photography, soft adventure, and cultural immersion. Travellers who value space, considered design, and days without agenda over choreographed itineraries.",
-    whenToVisit: "June through August. Late June's summer solstice brings nearly 24-hour daylight — light that never quite leaves the sky, only softens to a perpetual golden dusk. July offers warmest water for kayaking. Any month in this window gives extraordinary conditions for photography and extended outdoor days.",
-    journeyFlow: ["Tromsø", "Lofoten Islands", "Svolvær", "Reine", "Vesterålen"],
+    overview: "The Lofoten Islands are a geological anomaly—a dramatic spine of ancient granite peaks rising directly from the turquoise waters of the Norwegian Sea. This journey is a study in the region's coastal identity, where traditional fishing heritage has been reimagined through the lens of contemporary design and culinary activism. From the active harbor of Ballstad to the raw, wild tip of the archipelago in Sørvågen, I focus on the interplay between the sea and the summits, celebrating the profound, 24-hour light of the Arctic summer.",
+    guestProfile: "This itinerary is crafted for the **Active Aestheticist**—travellers who want to engage physically with the landscape but return to a space of high-design and culinary excellence. It is perfect for couples or small groups who value the context of a private guide, local provenance (from 'women-powered' seaweed to artisanal cheese), and the luxury of exploring the archipelago’s most iconic corners away from the midday crowds.",
+    whenToVisit: "**June through August** is the season of the **Midnight Sun**. The 24-hour light transforms the islands into a playground where time becomes irrelevant. This is the optimal window for mountain biking, kayaking the crystal-clear fjords, and seeing the 'Stockfish' heritage in its peak summer rhythm.,
+    journeyFlow: ["Oslo", "Leknes", "Ballstad", "Sørvågen", "Leknes"],
     activities: [
       {
+        title: "Phase I: The Central Peaks (Based in Ballstad)",
         items: [
-          { name: "Private Fjord Expedition", description: "Explore the fjords by traditional wooden vessel with a local skipper who knows every current, inlet, and seasonal wildlife congregation." },
-          { name: "Golden Hour Ridge Hikes", description: "Guided ascents to remote coastal viewpoints as the midnight sun hangs low over the Vestfjorden, light painting the granite faces orange." },
-          { name: "Sea Kayaking", description: "Paddle through sea stacks and sheltered inlets at water level — the most intimate way to understand this archipelago's scale." },
-          { name: "Arctic Wildlife Encounters", description: "Sea eagles, puffins, harbour seals, and — with patience — the occasional orca passing through outer channels." },
-          { name: "Rorbu Cultural Immersion", description: "Spend time with working fishermen, learning the rhythms of a way of life unchanged in its essentials for centuries." },
-          { name: "Midnight Sun Photography", description: "Guided sessions on empty mountain ridgelines, timing ascents to the hour when light is at its most extraordinary." },
+          {
+            name: "Svolvær & Henningsvær Circuit",
+            description: "A private guided exploration of the 'Venice of the North.' Embark on a **RIB Boat Safari** to witness the vertical walls of the Trollfjord before visiting the art galleries of Henningsvær."
+          },
+          {
+            name: "The Wild West & Artisanal Lunch",
+            description: "A day of coastal contrasts. Start with a morning walk on the white sands of **Unstad Beach** (the Arctic’s surfing mecca), followed by an organic lunch at **Lofoten Gårdsysteri**—a family-run cheese farm in the hills. Conclude with the rugged ruins of **Eggum** and a sunset **horseback trek** on the sands of Hov."
+          },
+          {
+            name: "The Legendary Fishery",
+            description: "Join a private sea charter from the Hattvika docks to learn the art of the Lofoten catch directly from local fishers."
+          },
         ]
-      }
+      },
+      {
+        title: "Phase II: The Southern Wilds (Based in Sørvågen)",
+        items: [
+          {
+            name: "Women Power & The Golden Weed",
+            description: "On the drive south, stop in Napp to visit **Lofoten Seaweed**. This female-led initiative is a masterclass in modern sustainability, showing how the 'truffle of the sea' is harvested for the world’s best restaurants."
+          },
+          {
+            name: "Reinefjord Kayaking",
+            description: "A silent, guided paddle through the most photographed fjord in the world, weaving between islands and the shadow of the granite peaks."
+          },
+          {
+            name: "The End of the Road",
+            description: "Explore the village of **Å**, where time has stood still. Stop at the historic stone-oven bakery for their famous cinnamon rolls before a private guided tour of the village’s living history."
+          },
+          {
+            name: "Tundra Picnic & Hike",
+            description: "Guests can enjoy bespoke, guided mountain treks directly from the retreat in Sørvågen. These outings often include a chef-prepared picnic featuring foraged ingredients and local delicacies, to be enjoyed at a panoramic viewpoint overlooking the Atlantic."
+          },
+        ]
+      },
     ],
-    accommodation: "Properties here are chosen for their sense of belonging to the landscape rather than imposing on it. Historic red rorbu cabins sitting on stilts above the water — converted with restraint and attention to craft. Small-scale design lodges where floor-to-ceiling glass frames the peaks and water. Local ownership, regional materials, and views that render everything else irrelevant.",
-    designRationale: "This itinerary is built around extended stays in two carefully chosen villages rather than daily movement. The pacing is deliberate — these peaks demand time to register fully. Active days of kayaking and hiking are sequenced alongside unscheduled afternoons, allowing the landscape's scale to become emotionally familiar rather than visually processed. The midnight sun creates a temporal freedom unlike anywhere else: days without end, where dinner at eleven feels entirely natural.",
+    accommodation: "Accommodation is divided between two distinct architectural expressions of the north. In Ballstad, you will reside in a **Hillside View Cabin**—a contemporary, free-standing sanctuary perched above the harbor. These cabins are designed to bridge the gap between tradition and modernity, featuring weathered timber exteriors and expansive picture windows with built-in seats, perfect for watching the gold-leaf light of the Midnight Sun. For the final two nights, the experience shifts to a **Boutique Culinary Retreat** in Sørvågen. Here, the stay is 'horizontal'—occupying a cluster of repurposed 19th-century warehouses and modern suites designed by architects Schelderup & Gram. These rooms sit so close to the water you can hear the tide against the stone foundations, offering a tactile, minimalist luxury that works in perfect rhythm with the surrounding wild landscape.",
+    designRationale: "Lofoten’s beauty is undeniable, but its popularity in summer can compromise the sense of isolation that luxury travellers seek. **I have designed this journey as a split-stay to provide two entirely different perspectives: the vibrant, artisanal pulse of central Ballstad and the raw, end-of-the-road seclusion of Sørvågen**. By utilizing a **private guide and vehicle** for all land-based exploration, I remove the friction of navigating narrow coastal roads and searching for parking in crowded villages. This ensures that even the most 'iconic' locations are experienced with a sense of quiet, personal discovery.",
     gridImages: [
       { src: "/images/lofoten-rorbu.jpg", alt: "Red rorbu fishing cabins on Lofoten fjord", span: "wide" },
       { src: "/images/lofoten-kayak.jpg", alt: "Sea kayaking through Lofoten sea stacks", span: "normal" },
