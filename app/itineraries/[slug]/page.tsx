@@ -291,7 +291,7 @@ const itineraryData: Record<string, {
   "iceland-summer-fire-ice": {
     title: "Iceland",
     subtitle: "Summer Along the Edge of Fire and Ice",
-    heroImage: "/images/iceland_church.jpg",
+    heroImage: "/images/whale.jpg",
     heroTagline: "The Volcanic Pulse: Glacial Highlands & Elemental Wellness",
     overview: "Iceland is a landscape in a constant state of becoming—a raw, geological theatre where the earth’s internal heat meets the crushing weight of the glaciers. This journey is designed to peel back the layers of the North Atlantic, moving from the curated streets of the capital to the black-sand fringes of the south. We focus on the concept of 'Elemental Contrast': the thrill of ice caves and highland treks balanced by the profound, geothermal stillness of the world’s most iconic lagoon.",
     guestProfile: "This journey is specifically curated for **couples or a small group of friends (2–4 guests)** who seek an immersive and active connection with nature. It is tailored for the **Curious Explorer**—the traveler who enjoys being physically engaged with the landscape, whether through coastal trekking or glacial exploration, but who prioritizes a refined and comfortable environment at the end of each day. While the activities require a good level of physical mobility, the pace is designed to be rewarding rather than exhausting, making it ideal for those who value private, expert-led storytelling and the intimacy of shared, world-class meals.",
