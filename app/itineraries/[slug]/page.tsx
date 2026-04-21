@@ -220,38 +220,37 @@ const itineraryData: Record<string, {
     heroImage: "/images/treehotel.jpg",
     heroTagline: "Where design meets the frozen frontier.",
     overview: "Swedish Lapland presents a distinctly Scandinavian proposition—a place where cutting-edge architectural design coexists without contradiction with untamed Arctic wilderness. Here, you might sleep suspended in a mirrored glass cube invisible in the forest canopy, or within a floating sanctuary that drifts upon the seasonal rhythms of the Lule River. This is a journey that honours Sweden's particular genius: the belief that functional elegance and deep wilderness immersion are not competing values, but complementary ones.",
-    guestProfile: "Design-conscious couples and small groups of 2–6 who hold architectural and cultural experience in equal regard to wilderness adventure. Designed for travellers drawn to architectural expression and understated luxury, this journey appeals to those who value access, atmosphere, and discretion. It is particularly suited to clients who seek rare perspectives — experiencing the Northern Lights not as an excursion, but as something encountered privately, within the quiet context of their surroundings.",
-    whenToVisit: "November through March offers the most complete winter experience, with frozen rivers, snow-covered forests, and conditions suited to Arctic exploration. From January onwards, longer daylight hours are balanced by consistently dark evenings, creating favourable conditions for viewing the Aurora Borealis. While never guaranteed, the remote setting of Harads — far from artificial light — provides an exceptional environment for sightings, often visible directly from your accommodation.",
+    guestProfile: "**Design-conscious couples and small groups of 2–6** who hold architectural and cultural experience in equal regard to wilderness adventure. Designed for travellers drawn to architectural expression and understated luxury, this journey appeals to those who value access, atmosphere, and discretion. It is particularly suited to clients who seek rare perspectives — experiencing the Northern Lights not as an excursion, but as something encountered privately, within the quiet context of their surroundings.",
+    whenToVisit: "**November through March** offers the most complete winter experience, with frozen rivers, snow-covered forests, and conditions suited to Arctic exploration. From January onwards, longer daylight hours are balanced by consistently dark evenings, creating favourable conditions for viewing the Aurora Borealis. While never guaranteed, the remote setting of Harads — far from artificial light — provides an exceptional environment for sightings, often visible directly from your accommodation.",
     journeyFlow: ["Stockholm", "Luleå", "The Lule River (Harads)", "The Boreal Canopy (Harads)", "Stockholm"],
     activities: [
       {
         title: "Phase I: The Design Capital (Stockholm)",
         items: [
-          { name: "Private Architecture & Design Walk", description: "A tailored exploration of Stockholm's historic Gamla Stan and the lesser-known design corners of **Södermalm**, led by a local architect." },
-          { name: "The Vasa Museum", description: "Priority access and a private guided briefing at the **Vasa Museum** — the 17th-century warship that sank on its maiden voyage and was raised perfectly intact 333 years later." },
-          { name: "Östermalm Food Hall", description: "A private tasting tour of the city's most beautiful food market, built in **1888** and recently restored, with introductions to the finest Swedish smoked fish, cheese, and aquavit producers." },
+          { name: "Private Guided Walking Tour", description: "A tailored exploration of Stockholm’s historic architecture and hidden design corners, led by a local expert who reveals the city beyond the typical guidebooks." },
+          { name: "Curated Museum Visits", description: "Enjoy priority access and guided insights at the Vasa Museum to witness the 17th-century maritime marvel, or opt for an immersive journey through pop history at ABBA The Museum." },
         ]
       },
       {
-        title: "Phase II: The Boreal Canopy (Harads — Treehotel)",
+        title: "Phase II: Taiga & Tundra (The Lule River Valley)",
         items: [
-          { name: "Snowmobile Forest Safari", description: "A private journey across frozen wetlands and up to panoramic viewpoints above the **Lule River** valley — exhilarating in a way that road-based transport cannot replicate." },
-          { name: "Boreal Snowshoeing", description: "A slow-paced guided trek through deep snow, tracking wildlife prints and experiencing the absolute silence of the Taiga — a forest that covers more land than any other biome on earth." },
-          { name: "Sámi Heritage Encounter", description: "An intimate afternoon with a local **Sámi family** — learning about reindeer husbandry, the significance of the joik (song), and survival knowledge accumulated over millennia." },
-          { name: "Arctic Dog Sledding", description: "A half-day expedition through snow-heavy boreal forest, navigating the silent wilderness by dog power with an experienced musher." },
-          { name: "Private Aurora Photography", description: "A nocturnal session in Harads' dark-sky environment with a professional photographer, working until the light appears." },
+          { name: "Snowmobile Forest Safari", description: "An exhilarating private journey across frozen wetlands and up to panoramic viewpoints overlooking the vast Lule River valley." },
+          { name: "Boreal Snowshoeing", description: "A slow-paced, guided trek through deep snow to track local wildlife and experience the absolute silence of the snow-caked Taiga forest." },
+          { name: "Sámi Heritage Encounter", description: "An intimate, meaningful afternoon with a local Sámi family. Engage in a respectful exchange to learn about reindeer husbandry and the traditions of indigenous Arctic survival." },
+          { name: "Arctic Dog Sledding", description: "A daytime expedition through the snow-heavy boreal forests, navigating the silent wilderness by dog power in a high-welfare, private setting." },
         ]
       },
       {
-        title: "Phase III: The River (Harads — Arctic Bath)",
+        title: "Phase III: Arctic Wellness & Elemental Dining",
         items: [
-          { name: "The Arctic Bath Wellness Ritual", description: "The signature experience of this property: a traditional hydrotherapy circuit involving a sequence of heat, steam, and cold plunges directly into the **frozen Lule River**." },
-          { name: "Dining on Ice", description: "A private, white-tablecloth culinary experience set upon the frozen river, illuminated by torches and starlight — one of the most extraordinary dinner settings in the world." },
+          { name: "The Wellness Ritual", description: "A traditional hydrotherapy circuit involving a sequence of rhythmic heat and cold plunges in the frozen heart of the river—a grounding experience for the body and mind." },
+          { name: "Dining on Ice", description: "A private, white-tablecloth culinary experience set upon the frozen Lule River. Dine under the Arctic sky, illuminated only by torches and starlight, featuring the finest regional ingredients." },
+          { name: "Private Aurora Photography", description: "A nocturnal expedition with a professional photographer. Venture into the dark-sky zones to master the art of capturing the Northern Lights while learning the folklore of the Swedish North." },
         ]
       }
     ],
-    accommodation: "Accommodation has been selected to reflect the highest level of Swedish design and hospitality, with each property offering a distinct sense of place. In Stockholm, options include either a historic landmark known for its enduring elegance, or a more contemporary, design-led residence with a residential, highly curated atmosphere. In the Arctic, the experience becomes more architectural. One setting is positioned directly on the river, where the focus is on stillness, ritual, and a deeply considered approach to wellness. The other is set within the forest canopy, where individually designed structures offer a more expressive and unexpected interpretation of the landscape. Together, they provide two complementary perspectives on life in the north.",
-    designRationale: "The luxury traveler today seeks isolation without deprivation. While the two Arctic properties are geographical neighbors in Harads, we have paired them to provide two entirely different sensory experiences: one rooted in the therapeutic stillness of the river and the other in the playful escapism of the forest. By spending time in both, the guest experiences the full spectrum of Arctic design without the fatigue of long travel days, maximizing their time in 'the great silence.'",
+    accommodation: "Accommodation has been selected to reflect the highest level of Swedish design and hospitality, with each property offering a distinct sense of place. In Stockholm, options include either a **historic landmark** known for its enduring elegance, or a more contemporary, design-led residence with a residential, highly curated atmosphere. In the Arctic, the experience becomes more architectural. One setting is positioned directly on the river, where the focus is on stillness, ritual, and a deeply considered approach to wellness. The other is set within the forest canopy, where individually designed structures offer a more expressive and unexpected interpretation of the landscape. Together, they provide two complementary perspectives on **life in the north**.",
+    designRationale: "The **luxury traveler** today seeks isolation without deprivation. While the two Arctic properties are geographical neighbors in Harads, we have paired them to provide two entirely different sensory experiences: one rooted in the therapeutic stillness of the river and the other in the playful escapism of the forest. By spending time in both, the guest experiences the full **spectrum of Arctic design** without the fatigue of long travel days, maximizing their time in 'the great silence.'",
     gridImages: [
       { src: "/images/treehotel.jpg", alt: "Mirrored cube treehouse in Swedish Lapland forest", span: "wide" },
       { src: "/images/dog.jpg", alt: "Dog sledding through boreal forest", span: "normal" },
