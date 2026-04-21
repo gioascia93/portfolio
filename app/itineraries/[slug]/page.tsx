@@ -80,7 +80,7 @@ const itineraryData: Record<string, {
   "norwegian-fjords-hidden-valleys": {
     title: "Norwegian Fjords",
     subtitle: "Hidden Valleys Experience",
-    heroImage: "/images/fjord-waterfall.jpg",
+    heroImage: "/images/naeroyfjord.jpg",
     heroTagline: "Where waterfalls dissolve into silence.",
     overview: "The Sognefjord is Norway’s 'King of Fjords'—a deep, emerald artery cutting 200 kilometers into the heart of the mountains. This journey focuses on the transition from the Hanseatic maritime history of Bergen to the high-alpine pastures and hidden hamlets of the **Sognefjord region**. It is a tribute to the 'Slow-Living' philosophy, where luxury is found in the creak of an 18th-century timber floor, the steam of a wood-fired sauna, and the taste of the world's finest goat cheese at its source.",
     guestProfile: "This itinerary is specifically curated for **couples or a small group of friends (2–4 guests)** who seek a profound sense of place. It is tailored for the **Curious Explorer**—the traveler who enjoys being physically active through high-pasture hiking and fjord kayaking but prioritizes the warmth and storytelling of a heritage farmstead over a traditional hotel. This flow balances high-end urban design in Oslo with the rustic, authentic heritage of the fjords.",
