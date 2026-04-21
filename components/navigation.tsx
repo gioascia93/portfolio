@@ -9,7 +9,7 @@ const navItems = [
   { href: "/", label: "Home" },
   { href: "/#featured-itineraries", label: "Itineraries" },
   { href: "/expeditions", label: "Expeditions" },
-  { href: "/contact", label: "Contact" },
+  { href: "/#contact", label: "Contact" },
 ]
 
 export function Navigation() {
