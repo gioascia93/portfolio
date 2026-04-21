@@ -285,7 +285,7 @@ const itineraryData: Record<string, {
       { src: "/images/svalbard-polar.jpg", alt: "Polar bear on Arctic sea ice", span: "wide" },
       { src: "/images/lofoten_swim.webp", alt: "Lofoten swim", span: "normal" },
       { src: "/images/walrus.jpg", alt: "Walrus", span: "normal" },
-      { src: "/images/iceland-glacier.jpg", alt: "Glacier lagoon with icebergs", span: "wide" },
+      { src: "/images/lofoten_mountain.jpg", alt: "Lofoten Mountain", span: "wide" },
     ]
   },
   "iceland-summer-fire-ice": {
