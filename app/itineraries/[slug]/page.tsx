@@ -326,9 +326,9 @@ const itineraryData: Record<string, {
     accommodation: "Accommodation is selected to bridge the gap between boutique urbanism and rural heritage. In Reykjavík, you will stay in a **Design Boutique** on the city’s main artery—a hotel that blends art-deco elegance with contemporary Icelandic minimalism. In the south, the experience shifts to a **Luxury Farmhouse Estate**—a family-run boutique lodge that celebrates the heritage of the Icelandic horse. Here, the rooms offer views of the southern fells and the Atlantic, combining the warmth of a private home with the services of a high-end lodge. For the final night, you move to the **Volcanic Retreat**—an architectural landmark built into an 800-year-old lava flow. Featuring a private lagoon and subterranean spa, it is a space designed for total sensory decompression.",
     designRationale: "Iceland’s popularity requires a strategy of 'Smart Logistics' and 'Private Access.' **I have designed this itinerary to utilize dedicated 7-8 hour private guided transfers for all land-based exploration**. By basing the mid-trip stay at a southern equestrian estate, I significantly reduce travel times to the Westman Islands and the Highlands, buying back hours of leisure for the guest. The journey concludes with a final night in a high-design volcanic retreat to ensure you return home from the land of 'Fire and Ice' feeling completely restored.",
     gridImages: [
-      { src: "/images/iceland-lava.jpg", alt: "Moss-covered Icelandic lava field", span: "normal" },
+      { src: "/images/ice_cave.jpg", alt: "Ice Cave", span: "normal" },
       { src: "/images/puffins.jpg", alt: "Puffins on Icelandic coastal cliffs", span: "normal" },
-      { src: "/images/arctic-fox.jpg", alt: "Arctic fox in Iceland", span: "normal" },
+      { src: "/images/landmannalaugar.jpg", alt: "Landmannalaugar", span: "normal" },
       { src: "/images/whale-tail.jpg", alt: "Whale watching off Iceland coast", span: "wide" },
     ]
   },
