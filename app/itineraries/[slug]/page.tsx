@@ -5,6 +5,8 @@ import { ItineraryDetailHero } from "@/components/itineraries/itinerary-detail-h
 import { ItineraryContent } from "@/components/itineraries/itinerary-content"
 import { RelatedItineraries } from "@/components/itineraries/related-itineraries"
 
+
+
 const itineraryData: Record<string, {
   title: string
   subtitle: string
@@ -55,8 +57,8 @@ const itineraryData: Record<string, {
     whenToVisit: "The definitive window for this crossing is May through September, a period that transitions from the dramatic 'thaw' to the golden harvest. In May and June, the landscape is a theater of roaring waterfalls and blossoming orchards set against snow-capped peaks. High summer (July and August) brings the 'White Nights' and full access to the mountain pastures, while September offers crisp, golden light and a quiet, artisanal focus on the autumn harvest.",
     journeyFlow: ["Bergen", "The Sognefjord Region", "Oslo"],
     activities: [
-      "Private guiding through fjord valleys absent from mainstream tourism circuits",
-      "Multi-day hiking routes to remote viewpoints and abandoned mountain farms",
+      "The Archipelago Culinary Safari: Embark on a private maritime expedition into the Bergen archipelago. Board a vessel from the harbor and weave through the islets to forage for periwinkles and seaweed. On a remote shore, enjoy a gastronomic meal—including fresh scallops and signature shellfish soup—prepared over an open fire as the tide comes in.",
+      "Mt. Fløyen Panorama: Take the funicular for a sunset view over the seven mountains, a perfect introduction to the fjord topography.",
       "Waterfall walks and swimming in glacially cold plunge pools",
       "Farm-to-table dining with local producers and regional cheesemakers",
       "Kayaking through UNESCO-listed Nærøyfjord at dawn",
