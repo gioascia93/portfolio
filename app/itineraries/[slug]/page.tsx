@@ -22,7 +22,7 @@ const itineraryData: Record<string, {
   "lofoten-arctic-summer": {
     title: "Lofoten Islands",
     subtitle: "Arctic Summer Journey",
-    heroImage: "/images/lofoten-rorbu.jpg",
+    heroImage: "/images/lofoten_hero.jpg",
     heroTagline: "Shaped by light, distance, and stillness.",
     overview: "The Lofoten Islands are a geological anomaly—a dramatic spine of ancient granite peaks rising directly from the turquoise waters of the Norwegian Sea. This journey is a study in the region's coastal identity, where traditional fishing heritage has been reimagined through the lens of contemporary design and culinary activism. From the active harbor of Ballstad to the raw, wild tip of the archipelago in Sørvågen, I focus on the interplay between the sea and the summits, celebrating the profound, 24-hour light of the Arctic summer.",
     guestProfile: "This itinerary is crafted for the **Active Aestheticist**—travellers who want to engage physically with the landscape but return to a space of high-design and culinary excellence. It is perfect for couples or small groups who value the context of a private guide, local provenance (from 'women-powered' seaweed to artisanal cheese), and the luxury of exploring the archipelago’s most iconic corners away from the midday crowds.",
