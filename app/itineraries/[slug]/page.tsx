@@ -59,7 +59,7 @@ const itineraryData: Record<string, {
     activities: [
       "The Archipelago Culinary Safari: Embark on a private maritime expedition into the Bergen archipelago. Board a vessel from the harbor and weave through the islets to forage for periwinkles and seaweed. On a remote shore, enjoy a gastronomic meal—including fresh scallops and signature shellfish soup—prepared over an open fire as the tide comes in.",
       "Mt. Fløyen Panorama: Take the funicular for a sunset view over the seven mountains, a perfect introduction to the fjord topography.",
-      "Waterfall walks and swimming in glacially cold plunge pools",
+      "The Waterfall & Valley Route: Your private guide will drive you east, stopping at Tvindefossen, a tiered waterfall known for its rejuvenating mist.",
       "Farm-to-table dining with local producers and regional cheesemakers",
       "Kayaking through UNESCO-listed Nærøyfjord at dawn",
       "Cider tasting in Hardanger apple orchards"
