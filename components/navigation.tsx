@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils"
 
 const navItems = [
   { href: "/", label: "Home" },
-  { href: "/itineraries", label: "Itineraries" },
+  { href: "/#featured-itineraries", label: "Itineraries" },
   { href: "/expeditions", label: "Expeditions" },
   { href: "/contact", label: "Contact" },
 ]
