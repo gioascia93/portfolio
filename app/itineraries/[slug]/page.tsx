@@ -261,7 +261,7 @@ const itineraryData: Record<string, {
   "svalbard-polar-summer-expedition": {
     title: "Svalbard",
     subtitle: "Polar Arctic Summer Expedition",
-    heroImage: "/images/svalbard-polar.jpg",
+    heroImage: "/images/polar_bear_lying.jpg",
     heroTagline: "The Polar Frontier: Svalbard’s Remote Horizons",
     overview: "Svalbard represents the ultimate northern frontier—a vast, glaciated archipelago situated halfway between mainland Norway and the North Pole. This journey is a tribute to the golden age of polar exploration, reimagined for the modern traveler. We bridge the colonial-industrial history of Longyearbyen with the absolute isolation of a remote coastal radio station. It is a land of 24-hour daylight or total polar night, where the scale of the landscape is matched only by the profound silence of the High Arctic.",
     guestProfile: "Design-conscious **couples and small groups of 2–6** who hold architectural and cultural heritage in equal regard to wilderness adventure. This itinerary is for the true 'frontier-seeker'—travellers drawn to the stark beauty of the tundra, the history of Arctic maritime life, and the quiet dignity of a remote outpost. It appeals to those who value access and discretion, and who understand that in this extreme environment, true luxury is defined by warmth, safety, and a front-row seat to the rawest nature on Earth.",
@@ -283,8 +283,8 @@ const itineraryData: Record<string, {
     designRationale: "I have designed this journey to address the logistical intensity of the High Arctic while ensuring a sense of effortless flow. By including an 'arrival night' in Longyearbyen, I provide a crucial buffer for flight schedules and a soft transition into the environment. The move to **Isfjord Radio** is the centerpiece of the trip—it offers the 'Remote Horizon' that my clients seek, moving them away from the town center and into a space where the wilderness is the only neighbor. **To ensure complete peace of mind, all specialized boat transfers and Arctic safety measures are seamlessly integrated, allowing the guest to focus entirely on the surreal scale of the North**.",
     gridImages: [
       { src: "/images/svalbard-polar.jpg", alt: "Polar bear on Arctic sea ice", span: "wide" },
-      { src: "/images/zodiac-glacier.jpg", alt: "Zodiac expedition approaching glacier", span: "normal" },
-      { src: "/images/whale-tail.jpg", alt: "Whale surfacing in Arctic waters", span: "normal" },
+      { src: "/images/lofoten_swim.webp", alt: "Lofoten swim", span: "normal" },
+      { src: "/images/walrus.jpg", alt: "Walrus", span: "normal" },
       { src: "/images/iceland-glacier.jpg", alt: "Glacier lagoon with icebergs", span: "wide" },
     ]
   },
