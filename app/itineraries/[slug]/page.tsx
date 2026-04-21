@@ -172,7 +172,7 @@ const itineraryData: Record<string, {
   "finnish-lapland-northern-lights": {
     title: "Finnish Lapland",
     subtitle: "Northern Lights Escape",
-    heroImage: "/images/northern-lights.jpg",
+    heroImage: "/images/arctic_treehouse_hotel.jpg",
     heroTagline: "The Finnish Synthesis: Helsinki & The Arctic Circle",
     overview: "This journey is a study in Finnish refinement, bridging the sophisticated urbanity of the south with the raw, elemental beauty of the **Arctic north**. We begin in Helsinki—a capital defined by its status as a global design hub—before flying north to Rovaniemi. Here, the experience shifts into a deep-winter immersion, where modern architectural design is used as a tool to frame the infinite beauty of the polar sky and the silent, snow-heavy Taiga.",
     guestProfile: "**Couples and small groups of 2–6** seeking a winter Arctic experience grounded in movement and outdoor immersion rather than mere spectacle. This journey is crafted for those drawn to architectural expression, active exploration, and the kind of contemplative space that extreme environments create. It is particularly suited to travellers at ease with the quiet and the cold, who value physical engagement with the landscape and the restorative power of the wild.",
