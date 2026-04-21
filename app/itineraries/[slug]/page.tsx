@@ -73,8 +73,8 @@ const itineraryData: Record<string, {
     gridImages: [
       { src: "/images/lofoten-rorbu.jpg", alt: "Red rorbu fishing cabins on Lofoten fjord", span: "wide" },
       { src: "/images/lofoten-kayak.jpg", alt: "Sea kayaking through Lofoten sea stacks", span: "normal" },
-      { src: "/images/puffins.jpg", alt: "Atlantic puffins on Lofoten cliff", span: "normal" },
-      { src: "/images/hero-fjord.jpg", alt: "Aerial fjord landscape", span: "wide" },
+      { src: "/images/unstad_beach.jpg", alt: "Unstad Beach", span: "normal" },
+      { src: "/images/seaweed.webp", alt: "Seaweed", span: "wide" },
     ]
   },
   "norwegian-fjords-hidden-valleys": {
