@@ -259,38 +259,39 @@ const itineraryData: Record<string, {
     title: "Iceland",
     subtitle: "Summer Along the Edge of Fire and Ice",
     heroImage: "/images/iceland-glacier.jpg",
-    heroTagline: "Where fire and ancient ice meet open sky.",
-    overview: "Iceland compresses geological time into a single landscape — volcanic terrain still exhaling heat from the earth's interior, glaciers that have been grinding through valleys since the last ice age, waterfalls of a scale that renders photography inadequate, and geothermal features that feel like evidence of ongoing creation. This is a journey through a landscape in the process of becoming, tracing Iceland's volcanic spine from the capital's cultural edge to uninhabited interior highlands.",
-    guestProfile: "Couples and small groups of 2–6 with genuine interest in geology, landscape photography, and the culture of a place defined by its relationship with elemental forces. Comfortable with road-based exploration, variable weather, and days shaped by light rather than clock. Photographers in particular find Iceland's quality of illumination — that long, low, perpetual-summer light — unlike anywhere else.",
-    whenToVisit: "June through August. June offers extraordinary light with a slight offset from peak season. July provides the warmest conditions and full accessibility to interior highland routes. August maintains excellent weather while approaching the shoulder season — when the first hints of autumn add drama to an already dramatic landscape.",
-    journeyFlow: ["Reykjavik", "Golden Circle", "South Coast", "Jökulsárlón", "East Fjords", "Interior Highlands"],
+    heroTagline: "The Volcanic Pulse: Glacial Highlands & Elemental Wellness",
+    overview: "Iceland is a landscape in a constant state of becoming—a raw, geological theatre where the earth’s internal heat meets the crushing weight of the glaciers. This journey is designed to peel back the layers of the North Atlantic, moving from the curated streets of the capital to the black-sand fringes of the south. We focus on the concept of 'Elemental Contrast': the thrill of ice caves and highland treks balanced by the profound, geothermal stillness of the world’s most iconic lagoon.",
+    guestProfile: "This journey is specifically curated for **couples or a small group of friends (2–4 guests)** who seek an immersive and active connection with nature. It is tailored for the **Curious Explorer**—the traveler who enjoys being physically engaged with the landscape, whether through coastal trekking or glacial exploration, but who prioritizes a refined and comfortable environment at the end of each day. While the activities require a good level of physical mobility, the pace is designed to be rewarding rather than exhausting, making it ideal for those who value private, expert-led storytelling and the intimacy of shared, world-class meals.",
+    whenToVisit: "**June through August** is the definitive window for highland access. This is the only time the interior roads to Landmannalaugar are open, and the Midnight Sun provides endless visibility for late-evening whale watching. The summer months offer the most stable conditions for snorkeling the Silfra Fissure and exploring the ice caves of Katla, ensuring a safe yet high-adrenaline immersion.",
+    journeyFlow: ["Reykjavík", "Skalakot", "South Coast", "Jökulsárlón", "East Fjords", "Reykjavík"],
     activities: [
       {
-        title: "Phase I: The Cultural Edge (Reykjavik & Golden Circle)",
+        title: "Phase I: The Capital & The Midnight Sea",
         items: [
-          { name: "Reykjavik Design & Art Walk", description: "A private morning with a local guide through the **101 Reykjavik** district, visiting independent galleries, the Harpa Concert Hall, and the less-visited corners of the National Museum." },
-          { name: "Geothermal Bathing — Off-Grid", description: "Not the Blue Lagoon. Instead, a private pool in the **Reykjanes Peninsula** hot spring field, accessed at dawn before the day tours arrive, with a naturalist guide explaining the geothermal system beneath your feet." },
-          { name: "Þingvellir Rift Valley", description: "Walk the **Mid-Atlantic Ridge** where the North American and Eurasian tectonic plates are visibly pulling apart — the only place on earth where a tectonic boundary is accessible on land." },
+          { name: "Gastronomic Walking Tour", description: "A private guided exploration of Reykjavík’s food scene, tasting artisanal products like local rye-bread ice cream and the freshest North Atlantic seafood." },
+          { name: "Midnight Sun Whale Safari", description: "A thrilling RIB boat expedition into **Faxaflói Bay**. These high-speed, stable vessels allow you to cover more area in search of Humpbacks and Minke whales, offering an exhilarating 'water-level' perspective that larger boats cannot provide." },
         ]
       },
       {
-        title: "Phase II: Ice, Fire & Waterfalls (South Coast)",
+        title: "Phase II: The Southern Elements",
         items: [
-          { name: "Private Glacier Hiking & Ice Cave", description: "Certified guides lead you onto **Vatnajökull** — Europe's largest glacier — including access to a formed ice cave where blue light filters through ancient compressed ice." },
-          { name: "Jökulsárlón Zodiac Tour", description: "A zodiac boat among the icebergs of the glacier lagoon, where calved ice floats seaward in shapes and colours that exist nowhere else — deep cerulean blue, white with trapped volcanic ash." },
-          { name: "Fjaðrárgljúfur Canyon at Dawn", description: "One of Iceland's most extraordinary geological features — a **2km canyon** cut by glacial meltwater — visited at 6am when the light is extraordinary and the path is entirely yours." },
+          { name: "Þingvellir & The Tectonic Drift", description: "Explore the UNESCO World Heritage site of **Þingvellir National Park**. Walk through the **Almannagjá Gorge**, a dramatic rift where the North American and Eurasian tectonic plates are visibly pulling apart. Visit **Lögberg (Law Rock)**, the site of the world’s first parliament, and the crystal-clear waters of **Silfra**, where you can snorkel between the two continents." },
+          { name: "The Greenhouse Lunch", description: "Mid-exploration, enjoy a delicious lunch at **Friðheimar**. Dine on world-famous tomato soup and fresh-baked bread inside a glowing, geothermal greenhouse, surrounded by 10,000 tomato plants." },
+          { name: "Geysers & Golden Falls", description: "Witness the explosive power of the **Strokkur geyser** and the thundering, two-tiered cascade of **Gullfoss**." },
+          { name: "Ice Caves & Noir Coastlines", description: "A private 4x4 expedition to the 'Dragon Glass' ice caves of the **Katla Volcano**. Afterward, walk the world-famous **Reynisfjara black sand beach**, framed by massive hexagonal basalt columns and the **Reynisdrangar** sea stacks rising from the Atlantic. Visit the 60-meter-high **Skógafoss** and walk behind the water curtain at **Seljalandsfoss**." },
+          { name: "Landmannalaugar Expedition", description: "A full-day private 4x4 journey into the interior. Witness the neon-green moss of **Grænagil**, the obsidian lava fields of **Laugahraun**, and the multicolored rhyolite peaks of **Brennisteinsalda**." },
+          { name: "Westman Islands Safari", description: "A short transfer to the southern harbor for a private sea crossing to **Heimaey**. See the world's largest puffin colonies at the **Stórhöfði** cliffs and walk the still-warm lava fields of the **Eldfell** volcano. Enjoy a shared culinary experience at **Næs**. This bright, open-kitchen bistro specialises in 'social plates' like cod wings, wild-caught fish, and local lamb—the perfect communal meal to toast to your island expedition" },
         ]
       },
       {
-        title: "Phase III: The Interior (Highlands)",
+        title: "Phase III: The Geothermal Reset",
         items: [
-          { name: "F-Road Highland Drive", description: "A private 4WD expedition across the **Kjölur Route** — black sand plains, obsidian fields, and hot spring valleys accessible only in summer, entirely absent from mainstream tourism circuits." },
-          { name: "Landmannalaugar Thermal Pool", description: "A natural geothermal pool at the edge of a **rhyolite mountain range**, reached on foot across a lava field, where you bathe among the most extraordinary coloured mountains on earth." },
+          { name: "The Ritual of the Lagoon", description: "A final transition to the Reykjanes Peninsula. Guests can enjoy a private geothermal lagoon and subterranean spa ritual, concluding with a farewell tasting menu overlooking the volcanic horizon." },
         ]
       }
     ],
-    accommodation: "Design-led hotels in Reykjavik that reflect Iceland's particular aesthetic — clean Nordic lines, volcanic material, the tension between the civilised and the elemental — paired with small owner-operated lodges in the countryside. Properties chosen for their location relative to early-morning light, their connection to the land, and the quality of local knowledge their owners bring to the table.",
-    designRationale: "Iceland's landscape has an emotional arc — accessible beauty near the capital that deepens into something more austere and confronting as you move east and into the interior. This itinerary follows that arc deliberately, building from the familiar to the genuinely remote. Extended time in each region prevents the tendency to treat this country as a collection of highlights to be photographed and moved on from. The goal is genuine comprehension of how fire and ice have created this singular place.",
+    accommodation: "Accommodation is selected to bridge the gap between boutique urbanism and rural heritage. In Reykjavík, you will stay in a **Design Boutique** on the city’s main artery—a hotel that blends art-deco elegance with contemporary Icelandic minimalism. In the south, the experience shifts to a **Luxury Farmhouse Estate**—a family-run boutique lodge that celebrates the heritage of the Icelandic horse. Here, the rooms offer views of the southern fells and the Atlantic, combining the warmth of a private home with the services of a high-end lodge. For the final night, you move to the **Volcanic Retreat**—an architectural landmark built into an 800-year-old lava flow. Featuring a private lagoon and subterranean spa, it is a space designed for total sensory decompression.",
+    designRationale: "Iceland’s popularity requires a strategy of 'Smart Logistics' and 'Private Access.' **I have designed this itinerary to utilize dedicated 7-8 hour private guided transfers for all land-based exploration**. By basing the mid-trip stay at a southern equestrian estate, I significantly reduce travel times to the Westman Islands and the Highlands, buying back hours of leisure for the guest. The journey concludes with a final night in a high-design volcanic retreat to ensure you return home from the land of 'Fire and Ice' feeling completely restored.",
     gridImages: [
       { src: "/images/iceland-lava.jpg", alt: "Moss-covered Icelandic lava field", span: "normal" },
       { src: "/images/puffins.jpg", alt: "Puffins on Icelandic coastal cliffs", span: "normal" },
