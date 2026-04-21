@@ -54,8 +54,8 @@ const itineraryData: Record<string, {
     subtitle: "Hidden Valleys Experience",
     heroImage: "/images/fjord-waterfall.jpg",
     heroTagline: "Where waterfalls dissolve into silence.",
-    overview: "The Sognefjord is Norway’s 'King of Fjords'—a deep, emerald artery cutting 200 kilometers into the heart of the mountains. This journey focuses on the transition from the Hanseatic maritime history of Bergen to the high-alpine pastures and hidden hamlets of the Sognefjord region. It is a tribute to the 'Slow-Living' philosophy, where luxury is found in the creak of an 18th-century timber floor, the steam of a wood-fired sauna, and the taste of the world's finest goat cheese at its source.",
-    guestProfile: "This itinerary is specifically curated for couples or a small group of friends (2–4 guests) who seek a profound sense of place. It is tailored for the Curious Explorer—the traveler who enjoys being physically active through high-pasture hiking and fjord kayaking but prioritizes the warmth and storytelling of a heritage farmstead over a traditional hotel. This flow balances high-end urban design in Oslo with the rustic, authentic heritage of the fjords.",
+    overview: "The Sognefjord is Norway’s 'King of Fjords'—a deep, emerald artery cutting 200 kilometers into the heart of the mountains. This journey focuses on the transition from the Hanseatic maritime history of Bergen to the high-alpine pastures and hidden hamlets of the **Sognefjord region**. It is a tribute to the 'Slow-Living' philosophy, where luxury is found in the creak of an 18th-century timber floor, the steam of a wood-fired sauna, and the taste of the world's finest goat cheese at its source.",
+    guestProfile: "This itinerary is specifically curated for **couples or a small group of friends (2–4 guests)** who seek a profound sense of place. It is tailored for the **Curious Explorer**—the traveler who enjoys being physically active through high-pasture hiking and fjord kayaking but prioritizes the warmth and storytelling of a heritage farmstead over a traditional hotel. This flow balances high-end urban design in Oslo with the rustic, authentic heritage of the fjords.",
     whenToVisit: "The definitive window for this crossing is May through September, a period that transitions from the dramatic 'thaw' to the golden harvest. In May and June, the landscape is a theater of roaring waterfalls and blossoming orchards set against snow-capped peaks. High summer (July and August) brings the 'White Nights' and full access to the mountain pastures, while September offers crisp, golden light and a quiet, artisanal focus on the autumn harvest.",
     journeyFlow: ["Bergen", "The Sognefjord Region", "Oslo"],
     activities: [
@@ -77,46 +77,63 @@ const itineraryData: Record<string, {
         ]
       },
       {
-        title: "Phase II: The Living Fjord (Sognefjord & Aurland)",
+        title: "Phase II: Crossing the King of Fjords (Transfer Day)",
         items: [
           {
             name: "The Waterfall & Valley Route",
-            description: "Your private guide will take you east from Bergen, stopping at **Tvindefossen** — a tiered waterfall known for its rejuvenating mist — before continuing through the apple orchards of **Hardanger**."
+            description: "Your private guide will drive you east, stopping at **Tvindefossen**, a tiered waterfall known for its rejuvenating mist."
           },
           {
-            name: "Dawn Kayaking on Nærøyfjord",
-            description: "On the UNESCO-listed arm of the Sognefjord, where walls rise 1,700 metres and the water reflects everything perfectly, kayak at first light before the day tours arrive."
+            name: "The Silent Cruise (Gudvangen to Flåm)",
+            description: "Board the award-winning electric vessel at **Gudvangen**. Glide through the **Nærøyfjord** where the mountain walls rise 1,700 meters directly from the water. Your guide will meet you at the pier in **Flåm** with your luggage."
           },
           {
             name: "Stegastein Viewpoint at Dusk",
             description: "A cantilevered platform 650 metres above the Aurlandsfjord, designed by architectural firm Fehn & Grung. Arrive late in the day when the coach parties have gone."
           },
           {
-            name: "Farmstead Cheese & Cider Tasting",
-            description: "Visit a **Stølsysteri** (mountain dairy) in the Aurland valley for a private tasting of brunost and fresh goat's cheese, paired with local cider from century-old orchards."
+            name: "Flåm Exploration",
+            description: "Enjoy a craft beer and lunch at a **Boutique Brewpub** housed in a stave-church-inspired building, before a short transfer to the stillness of your farmstead."
           },
         ]
       },
       {
-        title: "Phase III: The Capital Edit (Oslo)",
+        title: "Phase III: The Aurland Valley & High Pastures",
         items: [
           {
-            name: "The Munch Museum & Ekeberg Sculpture Park",
-            description: "Begin with an early private visit to the **Munch Museum** — Oslo's most significant cultural institution — before walking the Ekeberg hills for views across the Oslofjord."
+            name: "The Leim Pasture Hike",
+            description: "A private guided trek up to a remote summer farm. Enjoy a traditional pasture picnic with fresh-made pancakes and local cheese while overlooking the valley."
           },
           {
-            name: "Aker Brygge & the Astrup Fearnley",
-            description: "The waterfront district's contemporary art museum, housed in a Renzo Piano building, houses one of Europe's finest private collections of post-war American and contemporary Nordic art."
+            name: "Floating Fjord Sauna",
+            description: "Spend an afternoon alternating between the wood-fired heat of a private floating sauna on the **Aurlandsfjord** and an invigorating plunge into the glacial waters."
           },
           {
-            name: "New Nordic Dining",
-            description: "A reservation at one of Oslo's cutting-edge New Nordic restaurants, where the tasting menu changes weekly according to what the foragers and farmers have brought in."
+            name: "Bike & Kayak Adventure",
+            description: "A gentle cycle from the lodge followed by a sea kayak session, paddling past roadless hamlets and ancient Viking mounds."
+          },
+        ]
+      },
+      {
+        title: "Phase IV: The Iron Path & Urban Oslo",
+        items: [
+          {
+            name: "The Flåm Railway (Flåmsbana)",
+            description: "Ascend from the fjord to the mountain station of **Myrdal**. It is one of the steepest and most beautiful rail journeys in the world."
+          },
+          {
+            name: "Oslo’s Urban Treasures",
+            description: "A private guided walk through the capital's hidden gems, from the secret gardens of the Royal Palace to the cutting-edge architecture of the **Barcode district**."
+          },
+          {
+            name: "Oslo on Wheels (Optional)",
+            description: "If you prefer a higher pace, opt for a private bike tour along the harbor, passing the **Opera House** and the **Munch Museum**."
           },
         ]
       }
     ],
-    accommodation: "In Bergen, you will stay at a Neo-Renaissance Gem, a grand, family-run hotel housed in a 19th-century bank building that celebrates the city's musical legacy. In the Aurland Valley, you move to a Soulful Boutique Farmstead, a cluster of restored farm buildings that define 'luxury through authenticity.' The journey concludes at a Restored 1930s Masterpiece in Oslo, featuring Art Deco elegance and the city's most vibrant rooftop social scene.",
-    designRationale: "The structure of this journey mirrors the fjord landscape itself — intervals of intense visual and physical engagement followed by passages of quiet. Destinations are sequenced to build gradually from accessible to remote, giving your eye and body time to recalibrate to a different scale of wilderness. Accommodation types shift in parallel, moving from urban design sensibility to something older and more rooted, deepening the sense of arrival.",
+    accommodation: "In Bergen, you will stay at a **Neo-Renaissance Gem**, a grand, family-run hotel housed in a 19th-century bank building that celebrates the city's musical legacy. In the Aurland Valley, you move to a **Soulful Boutique Farmstead**, a cluster of restored farm buildings that define 'luxury through authenticity.' The journey concludes at a **Restored 1930s Masterpiece** in Oslo, featuring Art Deco elegance and the city's most vibrant rooftop social scene.",
+    designRationale: "I have designed this journey to eliminate the 'travel friction' often found in the fjords. By utilizing a **private transfer from Bergen**, I gain you access to the dramatic high-altitude viewpoints that standard rail-tours bypass. I have split your logistics at Gudvangen: you will board a silent electric vessel to experience the UNESCO Nærøyfjord in its natural stillness, while your guide moves your luggage by road to meet you in Flåm. This 'Split Transit' approach buys back hours of leisure, ensuring your arrival at the **heritage farmstead** is effortless. By basing you in the **Aurland Valley**, I have pulled you away from the high-traffic ports and into a setting defined by wood-smoke and mountain air—a sophisticated, rural counterpoint to your final stay in an **architectural landmark** in Oslo.",
     gridImages: [
       { src: "/images/fjord-waterfall.jpg", alt: "Waterfall cascading into Norwegian fjord", span: "wide" },
       { src: "/images/hero-fjord.jpg", alt: "Aerial fjord view", span: "normal" },
