@@ -329,7 +329,7 @@ const itineraryData: Record<string, {
       { src: "/images/ice_cave.jpg", alt: "Ice Cave", span: "normal" },
       { src: "/images/puffins.jpg", alt: "Puffins on Icelandic coastal cliffs", span: "normal" },
       { src: "/images/landmannalaugar.jpg", alt: "Landmannalaugar", span: "normal" },
-      { src: "/images/whale-tail.jpg", alt: "Whale watching off Iceland coast", span: "wide" },
+      { src: "/images/blue_lagoon.jpg", alt: "Blue Lagoon", span: "wide" },
     ]
   },
 }
