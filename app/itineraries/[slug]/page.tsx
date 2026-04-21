@@ -165,8 +165,8 @@ const itineraryData: Record<string, {
     gridImages: [
       { src: "/images/fjord-waterfall.jpg", alt: "Waterfall cascading into Norwegian fjord", span: "wide" },
       { src: "/images/hero-fjord.jpg", alt: "Aerial fjord view", span: "normal" },
-      { src: "/images/norway-train.jpg", alt: "Mountain railway through fjord landscape", span: "normal" },
-      { src: "/images/lapland-lodge.jpg", alt: "Nordic lodge interior", span: "normal" },
+      { src: "/images/norway_train.webp", alt: "Mountain railway through fjord landscape", span: "normal" },
+      { src: "/images/farm_hike.jpg", alt: "Farm Hike", span: "normal" },
     ]
   },
   "finnish-lapland-northern-lights": {
