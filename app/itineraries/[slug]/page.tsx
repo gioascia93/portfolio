@@ -164,7 +164,7 @@ const itineraryData: Record<string, {
     designRationale: "I have designed this journey to eliminate the 'travel friction' often found in the fjords. By utilizing a **private transfer from Bergen**, I gain you access to the dramatic high-altitude viewpoints that standard rail-tours bypass. I have split your logistics at Gudvangen: you will board a silent electric vessel to experience the UNESCO Nærøyfjord in its natural stillness, while your guide moves your luggage by road to meet you in Flåm. This 'Split Transit' approach buys back hours of leisure, ensuring your arrival at the **heritage farmstead** is effortless. By basing you in the **Aurland Valley**, I have pulled you away from the high-traffic ports and into a setting defined by wood-smoke and mountain air—a sophisticated, rural counterpoint to your final stay in an **architectural landmark** in Oslo.",
     gridImages: [
       { src: "/images/fjord-waterfall.jpg", alt: "Waterfall cascading into Norwegian fjord", span: "wide" },
-      { src: "/images/hero-fjord.jpg", alt: "Aerial fjord view", span: "normal" },
+      { src: "/images/woman_oyster.webp", alt: "Woman Oyster", span: "normal" },
       { src: "/images/norway_train.webp", alt: "Mountain railway through fjord landscape", span: "normal" },
       { src: "/images/farm_hike.jpg", alt: "Farm Hike", span: "normal" },
     ]
