@@ -47,7 +47,7 @@ const itineraries = [
     slug: "finnish-lapland-northern-lights",
     title: "Finnish Lapland",
     subtitle: "Northern Lights Escape",
-    image: "/images/northern-lights.jpg",
+    image: "/images/reindeer_finland.jpg",
   },
 ]
 
