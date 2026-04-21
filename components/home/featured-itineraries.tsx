@@ -40,7 +40,7 @@ const itineraries = [
     slug: "svalbard-polar-summer-expedition",
     title: "Svalbard",
     subtitle: "Polar Arctic Summer Expedition",
-    image: "/images/svalbard-polar.jpg",
+    image: "/images/polar_bear_lying2.jpg",
   },
   {
     id: 6,
