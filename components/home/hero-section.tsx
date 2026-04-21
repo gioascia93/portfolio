@@ -58,7 +58,7 @@ export function HeroSection() {
               View Itineraries
             </Link>
             <Link
-              href="/contact"
+              href="/#contact"
               className="px-8 py-4 border border-white text-white text-sm tracking-widest uppercase hover:bg-white/10 transition-colors"
             >
               Work With Me
