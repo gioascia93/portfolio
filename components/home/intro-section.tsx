@@ -82,9 +82,9 @@ export function IntroSection() {
           {/* Image */}
           {/* Portrait Image - Smaller and more discreet */}
           <div className="w-full">
-            <div className="relative aspect-[3/4] w-full max-w-[280px] mx-auto">
+            <div className="relative aspect-[3/4] w-full max-w-[500px] mx-auto">
               <Image
-                src="/images/portrait.jpg"
+                src="/images/giorgia.jpg"
                 alt="Giorgia Ascia"
                 fill
                 className="object-cover"

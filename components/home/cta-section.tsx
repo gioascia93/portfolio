@@ -27,7 +27,7 @@ export function CTASection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="relative py-32 lg:py-48 overflow-hidden">
+    <section id="contact" ref={sectionRef} className="relative py-32 lg:py-48 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
         <Image
@@ -59,7 +59,7 @@ export function CTASection() {
 
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/contact"
+              href="mailto:gioascia93@gmail.com"
               className="px-8 py-4 bg-white text-foreground text-sm tracking-widest uppercase hover:bg-white/90 transition-colors"
             >
               Start a Conversation

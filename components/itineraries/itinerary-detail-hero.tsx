@@ -64,13 +64,13 @@ export function ItineraryDetailHero({
             )}
           >
             {/* Subtitle above title */}
-            <p className="text-[11px] uppercase tracking-[0.28em] text-white/50 font-light mb-5">
+            {/*<p className="text-[11px] uppercase tracking-[0.28em] text-white/50 font-light mb-5">
               {subtitle}
-            </p>
+            </p>*/}
             <h1 className="font-serif text-5xl md:text-6xl lg:text-[80px] text-white leading-[1.05] tracking-tight">
               {title}
             </h1>
-            <p className="mt-8 text-sm md:text-base text-white/60 font-light tracking-wide max-w-md leading-relaxed">
+            <p className="mt-8 text-sm md:text-base text-white/70 font-medium tracking-wide max-w-md leading-relaxed">
               {heroTagline}
             </p>
           </div>

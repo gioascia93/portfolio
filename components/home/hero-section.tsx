@@ -40,7 +40,7 @@ export function HeroSection() {
             Luxury Travel Design
           </p>
           <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl text-white leading-tight tracking-tight text-balance">
-            Nordic & Arctic 
+            Nordic & Arctic
             <br />
             Travel Designer
           </h1>
@@ -52,13 +52,13 @@ export function HeroSection() {
           {/* CTA Buttons */}
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/itineraries"
+              href="/#featured-itineraries"
               className="px-8 py-4 bg-white text-foreground text-sm tracking-widest uppercase hover:bg-white/90 transition-colors"
             >
               View Itineraries
             </Link>
             <Link
-              href="/contact"
+              href="/#contact"
               className="px-8 py-4 border border-white text-white text-sm tracking-widest uppercase hover:bg-white/10 transition-colors"
             >
               Work With Me

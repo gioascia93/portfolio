@@ -10,15 +10,40 @@ interface GridImage {
   span?: "wide" | "tall" | "normal"
 }
 
+export interface ActivityItem {
+  name: string
+  description: string
+}
+
+export interface ActivityPhase {
+  title?: string
+  items: ActivityItem[]
+}
+
 interface ItineraryContentProps {
   overview: string
   guestProfile: string
   whenToVisit: string
   journeyFlow: string[]
-  activities: string[]
+  activities: ActivityPhase[]
   accommodation: string
   designRationale: string
   gridImages: GridImage[]
+}
+
+/** Renders text with **bold** markdown and \n line breaks */
+function RichText({ text, className }: { text: string; className?: string }) {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g)
+  return (
+    <span className={className}>
+      {parts.map((part, i) => {
+        if (part.startsWith("**") && part.endsWith("**")) {
+          return <strong key={i} className="font-semibold text-foreground/90">{part.slice(2, -2)}</strong>
+        }
+        return <span key={i}>{part}</span>
+      })}
+    </span>
+  )
 }
 
 function FadeIn({ children, className, delay = 0 }: { children: React.ReactNode; className?: string; delay?: number }) {
@@ -76,7 +101,7 @@ export function ItineraryContent({
         <FadeIn>
           <SectionLabel>Overview</SectionLabel>
           <p className="font-serif text-xl lg:text-2xl leading-relaxed text-foreground/85 font-light">
-            {overview}
+            <RichText text={overview} />
           </p>
         </FadeIn>
       </div>
@@ -115,7 +140,7 @@ export function ItineraryContent({
             <div>
               <SectionLabel>Designed For</SectionLabel>
               <p className="text-sm leading-loose text-foreground/70 font-normal">
-                {guestProfile}
+                <RichText text={guestProfile} />
               </p>
             </div>
           </FadeIn>
@@ -123,7 +148,7 @@ export function ItineraryContent({
             <div>
               <SectionLabel>When to Visit</SectionLabel>
               <p className="text-sm leading-loose text-foreground/70 font-normal">
-                {whenToVisit}
+                <RichText text={whenToVisit} />
               </p>
             </div>
           </FadeIn>
@@ -159,7 +184,7 @@ export function ItineraryContent({
         <FadeIn>
           <SectionLabel>Types of Accommodation</SectionLabel>
           <p className="text-sm leading-loose text-foreground/70 font-normal">
-            {accommodation}
+            <RichText text={accommodation} />
           </p>
         </FadeIn>
       </div>
@@ -173,19 +198,32 @@ export function ItineraryContent({
       <div className="mx-auto max-w-4xl px-6 lg:px-0 py-12 lg:py-20">
         <FadeIn>
           <SectionLabel>Possible Activities</SectionLabel>
-          <ul className="space-y-5">
-            {activities.map((activity, i) => (
-              <FadeIn key={i} delay={i * 60}>
-                <li className="flex items-start gap-5">
-                  <span className="text-foreground/20 mt-1.5 shrink-0 text-xs">◆</span>
-                  <span className="text-sm leading-relaxed text-foreground/70 font-normal">
-                    {activity}
-                  </span>
-                </li>
-              </FadeIn>
-            ))}
-          </ul>
         </FadeIn>
+        <div className="space-y-12 mt-2">
+          {activities.map((phase, pi) => (
+            <FadeIn key={pi} delay={pi * 80}>
+              {/* Phase heading — only shown when a title is provided */}
+              {phase.title && (
+                <h6 className="text-[11px] uppercase tracking-[0.2em] text-foreground/50 font-sans font-medium mb-6 pb-3 border-b border-foreground/10">
+                  {phase.title}
+                </h6>
+              )}
+              <ul className="space-y-7">
+                {phase.items.map((item, ii) => (
+                  <li key={ii} className="flex items-start gap-5">
+                    <span className="text-foreground/20 mt-[5px] shrink-0 text-[8px]">◆</span>
+                    <span className="text-sm leading-relaxed text-foreground/70 font-normal">
+                      <strong className="font-semibold text-foreground/85">{item.name}</strong>
+                      {item.description ? (
+                        <><span className="text-foreground/40 mx-1">—</span><RichText text={item.description} /></>
+                      ) : null}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </FadeIn>
+          ))}
+        </div>
       </div>
 
       {/* ─── DIVIDER ──────────────────────────────────────────── */}
@@ -198,7 +236,7 @@ export function ItineraryContent({
         <FadeIn>
           <SectionLabel>Design Rationale</SectionLabel>
           <p className="font-serif text-lg lg:text-xl leading-relaxed text-foreground/80 font-light italic">
-            {designRationale}
+            <RichText text={designRationale} />
           </p>
         </FadeIn>
       </div>
