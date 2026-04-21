@@ -217,7 +217,7 @@ const itineraryData: Record<string, {
   "swedish-lapland-arctic-winter": {
     title: "Swedish Lapland",
     subtitle: "Arctic Winter Experience",
-    heroImage: "/images/treehotel.jpg",
+    heroImage: "/images/snowshoeing.jpg",
     heroTagline: "Where design meets the frozen frontier.",
     overview: "Swedish Lapland presents a distinctly Scandinavian proposition—a place where cutting-edge architectural design coexists without contradiction with untamed Arctic wilderness. Here, you might sleep suspended in a mirrored glass cube invisible in the forest canopy, or within a floating sanctuary that drifts upon the seasonal rhythms of the Lule River. This is a journey that honours Sweden's particular genius: the belief that functional elegance and deep wilderness immersion are not competing values, but complementary ones.",
     guestProfile: "**Design-conscious couples and small groups of 2–6** who hold architectural and cultural experience in equal regard to wilderness adventure. Designed for travellers drawn to architectural expression and understated luxury, this journey appeals to those who value access, atmosphere, and discretion. It is particularly suited to clients who seek rare perspectives — experiencing the Northern Lights not as an excursion, but as something encountered privately, within the quiet context of their surroundings.",
