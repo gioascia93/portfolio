@@ -380,7 +380,6 @@ export default async function ItineraryDetailPage({ params }: { params: Promise<
           designRationale={itinerary.designRationale}
           gridImages={itinerary.gridImages}
         />
-        <RelatedItineraries currentSlug={slug} />
       </main>
       <Footer />
     </>
