@@ -218,10 +218,10 @@ const itineraryData: Record<string, {
     title: "Swedish Lapland",
     subtitle: "Arctic Winter Experience",
     heroImage: "/images/snowshoeing.jpg",
-    heroTagline: "Where design meets the frozen frontier.",
+    heroTagline: "Where design meets the frozen frontier",
     overview: "Swedish Lapland presents a distinctly Scandinavian proposition—a place where cutting-edge architectural design coexists without contradiction with untamed Arctic wilderness. Here, you might sleep suspended in a mirrored glass cube invisible in the forest canopy, or within a floating sanctuary that drifts upon the seasonal rhythms of the Lule River. This is a journey that honours Sweden's particular genius: the belief that functional elegance and deep wilderness immersion are not competing values, but complementary ones.",
     guestProfile: "**Design-conscious couples and small groups of 2–6** who hold architectural and cultural experience in equal regard to wilderness adventure. Designed for travellers drawn to architectural expression and understated luxury, this journey appeals to those who value access, atmosphere, and discretion. It is particularly suited to clients who seek rare perspectives — experiencing the Northern Lights not as an excursion, but as something encountered privately, within the quiet context of their surroundings.",
-    whenToVisit: "**November through March** offers the most complete winter experience, with frozen rivers, snow-covered forests, and conditions suited to Arctic exploration. From January onwards, longer daylight hours are balanced by consistently dark evenings, creating favourable conditions for viewing the Aurora Borealis. While never guaranteed, the remote setting of Harads — far from artificial light — provides an exceptional environment for sightings, often visible directly from your accommodation.",
+    whenToVisit: "**November through March** offers the most complete winter experience, with frozen rivers, snow-covered forests, and conditions suited to Arctic exploration. From January onwards, longer daylight hours are balanced by consistently dark evenings, creating favourable conditions for viewing the Aurora Borealis. While never guaranteed, the remote setting of Harads — far from artificial light — provides an exceptional environment for sightings, often visible directly from the accommodation.",
     journeyFlow: ["Stockholm", "Luleå", "The Lule River (Harads)", "The Boreal Canopy (Harads)", "Stockholm"],
     activities: [
       {
@@ -235,7 +235,7 @@ const itineraryData: Record<string, {
         title: "Phase II: Taiga & Tundra (The Lule River Valley)",
         items: [
           { name: "Snowmobile Forest Safari", description: "An exhilarating private journey across frozen wetlands and up to panoramic viewpoints overlooking the vast Lule River valley." },
-          { name: "Boreal Snowshoeing", description: "A slow-paced, guided trek through deep snow to track local wildlife and experience the absolute silence of the snow-caked Taiga forest." },
+          { name: "Boreal Snowshoeing", description: "A slow-paced, guided trek through deep snow to experience the absolute silence of the snow-caked Taiga forest." },
           { name: "Sámi Heritage Encounter", description: "An intimate, meaningful afternoon with a local Sámi family. Engage in a respectful exchange to learn about reindeer husbandry and the traditions of indigenous Arctic survival." },
           { name: "Arctic Dog Sledding", description: "A daytime expedition through the snow-heavy boreal forests, navigating the silent wilderness by dog power in a high-welfare, private setting." },
         ]
@@ -250,7 +250,7 @@ const itineraryData: Record<string, {
       }
     ],
     accommodation: "Accommodation has been selected to reflect the highest level of Swedish design and hospitality, with each property offering a distinct sense of place. In Stockholm, options include either a **historic landmark** known for its enduring elegance, or a more contemporary, design-led residence with a residential, highly curated atmosphere. In the Arctic, the experience becomes more architectural. One setting is positioned directly on the river, where the focus is on stillness, ritual, and a deeply considered approach to wellness. The other is set within the forest canopy, where individually designed structures offer a more expressive and unexpected interpretation of the landscape. Together, they provide two complementary perspectives on **life in the north**.",
-    designRationale: "The **luxury traveler** today seeks isolation without deprivation. While the two Arctic properties are geographical neighbors in Harads, we have paired them to provide two entirely different sensory experiences: one rooted in the therapeutic stillness of the river and the other in the playful escapism of the forest. By spending time in both, the guest experiences the full **spectrum of Arctic design** without the fatigue of long travel days, maximizing their time in 'the great silence.'",
+    designRationale: "The **luxury traveler** today seeks isolation without deprivation. While the two Arctic properties are geographical neighbors in Harads, I have paired them to provide two entirely different sensory experiences: one rooted in the therapeutic stillness of the river and the other in the playful escapism of the forest. By spending time in both, the guest experiences the full **spectrum of Arctic design** without the fatigue of long travel days, maximizing their time in 'the great silence.'",
     gridImages: [
       { src: "/images/forest.jpg", alt: "Forest", span: "wide" },
       { src: "/images/dog.jpg", alt: "Dog sledding through boreal forest", span: "normal" },
