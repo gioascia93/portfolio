@@ -81,9 +81,9 @@ const itineraryData: Record<string, {
     title: "Norwegian Fjords",
     subtitle: "Hidden Valleys Experience",
     heroImage: "/images/naeroyfjord.jpg",
-    heroTagline: "Where waterfalls dissolve into silence.",
+    heroTagline: "Where waterfalls dissolve into silence",
     overview: "The Sognefjord is Norway’s 'King of Fjords'—a deep, emerald artery cutting 200 kilometers into the heart of the mountains. This journey focuses on the transition from the Hanseatic maritime history of Bergen to the high-alpine pastures and hidden hamlets of the **Sognefjord region**. It is a tribute to the 'Slow-Living' philosophy, where luxury is found in the creak of an 18th-century timber floor, the steam of a wood-fired sauna, and the taste of the world's finest goat cheese at its source.",
-    guestProfile: "This itinerary is specifically curated for **couples or a small group of friends (2–4 guests)** who seek a profound sense of place. It is tailored for the **Curious Explorer**—the traveler who enjoys being physically active through high-pasture hiking and fjord kayaking but prioritizes the warmth and storytelling of a heritage farmstead over a traditional hotel. This flow balances high-end urban design in Oslo with the rustic, authentic heritage of the fjords.",
+    guestProfile: "This itinerary is specifically curated for **couples or a small group of friends (2–4 guests)** who seek a profound sense of place. It is tailored for the **Curious Explorer**—the traveler who enjoys being physically active through high-pasture hiking and fjord kayaking but prioritizes the warmth and storytelling of a heritage farmstead over a traditional hotel. This flow balances the Hanseatic maritime history of Bergen and the high-end urban design of Oslo with the rustic, authentic soul of the fjords.",
     whenToVisit: "The definitive window for this crossing is **May through September**, a period that transitions from the dramatic 'thaw' to the golden harvest. In May and June, the landscape is a theater of roaring waterfalls and blossoming orchards set against snow-capped peaks. High summer (July and August) brings the 'White Nights' and full access to the mountain pastures, while September offers crisp, golden light and a quiet, artisanal focus on the autumn harvest.",
     journeyFlow: ["Bergen", "The Sognefjord Region", "Oslo"],
     activities: [
@@ -116,12 +116,12 @@ const itineraryData: Record<string, {
             description: "Board the award-winning electric vessel at **Gudvangen**. Glide through the **Nærøyfjord** where the mountain walls rise 1,700 meters directly from the water. Your guide will meet you at the pier in **Flåm** with your luggage."
           },
           {
-            name: "Stegastein Viewpoint at Dusk",
-            description: "A cantilevered platform 650 metres above the Aurlandsfjord, designed by architectural firm Fehn & Grung. Arrive late in the day when the coach parties have gone."
-          },
-          {
             name: "Flåm Exploration",
             description: "Enjoy a craft beer and lunch at a **Boutique Brewpub** housed in a stave-church-inspired building, before a short transfer to the stillness of your farmstead."
+          },
+          {
+            name: "Stegastein Viewpoint at Dusk",
+            description: "A cantilevered platform 650 metres above the Aurlandsfjord, designed by architectural firm Fehn & Grung. Arrive late in the day when the coach parties have gone."
           },
         ]
       },
@@ -319,7 +319,7 @@ const itineraryData: Record<string, {
       {
         title: "Phase III: The Geothermal Reset",
         items: [
-          { name: "The Ritual of the Lagoon", description: "A final transition to the Reykjanes Peninsula. Guests can enjoy a private geothermal lagoon and subterranean spa ritual, concluding with a farewell tasting menu overlooking the volcanic horizon." },
+          { name: "The Ritual of the Lagoon", description: "A final transition to the Reykjanes Peninsula. Enjoy a private geothermal lagoon and subterranean spa ritual, concluding with a farewell tasting menu overlooking the volcanic horizon." },
         ]
       }
     ],
