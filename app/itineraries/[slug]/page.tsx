@@ -38,11 +38,11 @@ const itineraryData: Record<string, {
           },
           {
             name: "The Wild West & Artisanal Lunch",
-            description: "A day of coastal contrasts. Start with a morning walk on the white sands of **Unstad Beach** (the Arctic’s surfing mecca), followed by an organic lunch at **Lofoten Gårdsysteri**—a family-run cheese farm in the hills. Conclude with the rugged ruins of **Eggum** and a sunset **horseback trek** on the sands of Hov."
+            description: "A day of coastal contrasts. Start with a morning walk on the white sands of **Unstad Beach** (the Arctic’s surfing mecca), followed by an organic lunch at **Lofoten Gårdsysteri**—a family-run cheese farm in the hills. Conclude with the rugged ruins of **Eggum** and a **horseback trek** on the sands of Hov."
           },
           {
             name: "The Legendary Fishery",
-            description: "Join a private sea charter from the Hattvika docks to learn the art of the Lofoten catch directly from local fishers."
+            description: "Join a private sea charter from the docks to learn the art of the Lofoten catch directly from local fishers."
           },
         ]
       },
@@ -63,7 +63,7 @@ const itineraryData: Record<string, {
           },
           {
             name: "Tundra Picnic & Hike",
-            description: "Guests can enjoy bespoke, guided mountain treks directly from the retreat in Sørvågen. These outings often include a chef-prepared picnic featuring foraged ingredients and local delicacies, to be enjoyed at a panoramic viewpoint overlooking the Atlantic."
+            description: "Embark on bespoke, guided mountain treks departing directly from the retreat in Sørvågen. These excursions feature a chef-prepared picnic of foraged ingredients and local delicacies, served at a panoramic viewpoint overlooking the vast expanse of the Atlantic."
           },
         ]
       },
